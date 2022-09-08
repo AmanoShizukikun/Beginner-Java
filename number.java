@@ -36,8 +36,7 @@ public class number {
         num4 = num4 + 1;
         System.out.println(num4);
 
-        System.out.println("_____________________________________________________________________"); //分割線一;
-        //Java延伸用法
+        //上面的遞增算式可以Java運算子來簡化
         //1.輸出後+1
         System.out.println("輸出後+1");
         num4 = 1;
@@ -61,6 +60,25 @@ public class number {
         num4 = 1;
         System.out.println(--num4); //0
         System.out.println(num4);   //0
-        
+
+        System.out.println("_____________________________________________________________________"); //分割線一;
+        //Java指定運算子來簡化
+        //加減
+        int i = 0;
+        i += 1;   //也就是i = i + 1
+        System.out.println(i);
+        i -= 5;   //也就是i = i - 5
+        System.out.println(i);
+
+        //乘除
+        float j = 6.9f;
+        j *= 100;   //也就是j = j * 100
+        System.out.println(j);
+        j /= 10;   //也就是j = j / 10
+        System.out.println(j);
+
+        //取餘數
+        j %= 5;   //也就是j = j % 5
+        System.out.println(j);
     }
 }
